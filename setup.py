@@ -50,7 +50,7 @@ setup(
         "packaging>=22.0",
         "psutil>=5.9.0",
         "pyyaml>=6.0.1",
-        "torch>=2.1.2",
+        "torch>=2.1.0",
         "transformers>=4.31.0",
         "tqdm",
         "accelerate>=0.26.1",
