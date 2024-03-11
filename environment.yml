@@ -1,0 +1,35 @@
+name: rosa_finetune
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - numpy
+  - scipy
+  - tqdm
+  - docopt
+  - nltk
+  - torchvision
+  - pip
+  - pip:
+    - torch==2.1.0
+    - sentencepiece
+    - lxml==5.0.0
+    - pandas
+    - sacrebleu
+    - tensorboard
+    - bitsandbytes==0.40.2
+    - peft
+    - trl==0.4.7
+    - mlflow
+    - git+https://github.com/huggingface/accelerate
+    - safetensors
+    - transformers
+    - packaging
+    - pytest
+    - pyyaml
+    - datasets
+    - psutil
+    - setuptools
+    - git+https://github.com/IST-DASLab/spops.git
